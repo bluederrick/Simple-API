@@ -5,7 +5,7 @@ const user_validate = require('./user_validate')
 // create a seperate routes and import into app.js
 const createUser = require('../models/schema')
 
-const create_user = require('./user_validate');
+const create_user = require('./user_validate')
 
 /*router.post('/post', (req,res) => {
     res.end('hello fom derrick')
