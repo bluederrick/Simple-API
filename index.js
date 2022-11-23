@@ -9,7 +9,7 @@ const mongoose = require('./src/models/database_connnect')
 const routes = require ('./src/controllers/users_route');
 const validation = require('./src/controllers/user_validate')
 const body_parser = require('body-parser');
-//any time we mae a request we make sure the body parser  runs
+
 
 app.use(express.json() ,express.urlencoded({extended:true}), body_parser.json());
 const cors = require ('cors')
